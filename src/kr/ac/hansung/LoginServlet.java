@@ -45,7 +45,7 @@ public class LoginServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		String htmlResponse;
 		htmlResponse = "<html>";
-		htmlResponse += "<h2> your name is " + username + "<br/>";
+		htmlResponse += "<h2> your usename is " + username + "<br/>";
 		htmlResponse += "your password is " + password + "</h2>";
 		htmlResponse += "<br/>";
 		htmlResponse += "</html>";
